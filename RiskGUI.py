@@ -840,9 +840,9 @@ def fortify(player):
                     time.sleep(1)
         while troops > 0:
             nextC = False
-            show()
             logging.info(str(troops)+' unit(s) to place')
             box2 = (str(troops)+' unit(s) to place')
+            show()
             drawlines(p[0], 0)
             (x2,y2), t2 = getMouseClick()
             if ( y2 > 512 ):
